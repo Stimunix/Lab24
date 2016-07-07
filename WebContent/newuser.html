@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<title>New User Registration</title>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar navbar-default navbar-fixed-top">
+			<ul class="nav navbar-nav navbar-left" id="nav">
+				<li style="list-style: none"><a
+					href="http://localhost:8080/UsersLab/">Home</a></li>
+				<li style="list-style: none"><a href="#">Products</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right" id="nav"
+				style="position: relative;">
+				<li style="list-style: none;"><a href="#">Login</a></li>
+				<li style="list-style: none;"><a href="newuser.html">Sign
+						Up</a></li>
+			</ul>
+		</div>
+	</div>
+	<br />
+	<br />
+	<br />
+	<div class="container">
+	<div class="informpanel col-md-6">
+	</div>
+	</div>
+	<div class="container">
+		<div class="main col-md-10">
+			<h2 style="text-align: center">
+				<u>New User Registration</u>
+			</h2>
+			<form action="adduser.jsp" method="post">
+				<table id="newuser">
+					<tr>
+						<td align="right">Username:</td>
+						<td><input type="text" name="username"></td>
+					</tr>
+					<tr>
+						<td align="right">Email:</td>
+						<td><input type="text" name="email"></td>
+					</tr>
+
+					<tr>
+						<td align="right">Password:</td>
+						<td><input type="text" name="password"></td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><br>
+						<input type="submit" value="Submit" id="btn"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
