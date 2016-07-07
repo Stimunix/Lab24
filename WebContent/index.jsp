@@ -17,11 +17,10 @@
 					href="http://localhost:8080/UsersLab/">Home</a></li>
 				<li style="list-style: none"><a href="#">Products</a></li>
 			</ul>
-			<ul class="nav navbar-nav navbar-right" id="nav"
-				style="position: relative;">
-				<li style="list-style: none;"><a href="#">Login</a></li>
-				<li style="list-style: none;"><a href="newuser.html">Sign
-						Up</a></li>
+			<ul class="nav navbar-nav navbar-right" id="nav" style="position: relative;">
+				<li style="list-style: none;"><a
+					href="#">Login</a></li>
+				<li style="list-style: none;"><a href="newuser.html">Sign Up</a></li>
 			</ul>
 		</div>
 	</div>
@@ -30,9 +29,7 @@
 	<br />
 	<div class="container">
 		<div class="main">
-			<h2 style="text-align: center">
-				<u>Welcome to the Website</u>
-			</h2>
+			<h2 style="text-align: center"><u>Welcome to the Website</u></h2>
 
 		</div>
 	</div>
